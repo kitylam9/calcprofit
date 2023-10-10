@@ -94,4 +94,4 @@ with st.form("my_form"):
             else:
                 recalculate()
     if submitted:
-        edited_df = st.data_editor(df,  hide_index=False, num_rows="dynamic", on_change=recalculate) 
+        edited_df = st.data_editor(df,  hide_index=False, num_rows="dynamic") 
